@@ -14,4 +14,4 @@ If the same directory is specified twice, the process will exit to prevent any e
 
 ## Included Directories
 
-There are 3 included directories. One with general media files with a variety of extensions (which should be empty files, and were last time I checked), one empty directory, and one populated directory for the purposes of testing the various states of the command. There's also a "notADir" fake directory file to test whether or not the script will process with a file passed as a directory argument.
+There are 2 included directories. One with general media files with a variety of extensions (which should be empty files, and were last time I checked), and one populated directory for the purposes of testing the various states of the command. There's also a "notADir" fake directory file to test whether or not the script will process with a file passed as a directory argument. There should be an empty directory to test for actual valid outputs, which can be made and called any arbitrary name.
